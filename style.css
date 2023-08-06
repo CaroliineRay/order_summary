@@ -10,7 +10,7 @@ body {
     background-image: url("images/pattern-background-desktop.svg");
     background-repeat: repeat-x;
     background-color:  hsl(225, 100%, 94%);
-    background-position: 10% -25%*;
+    background-position: 10% -25%;
     background-attachment: fixed; /* not sure it is working */
     padding: 0;
     margin: 0;
@@ -121,6 +121,12 @@ a.cancel:hover {
     color: hsl(223, 47%, 23%);
 }
 
+@media screen and (min-width: 1440px) {
+    body {
+        background-position: 10% 40%;
+    }
+}
+
 @media screen and (max-width: 770px) {
 
     .flex-box {
@@ -130,13 +136,6 @@ a.cancel:hover {
     .flex-box2 {
         column-gap: 10px;
     }
-}
-
-@media screen and (min-width: 1440px) {
-    body {
-        background-position: 10% 40%;
-    }
-
 }
 
     @media screen and (max-width: 680px) {
