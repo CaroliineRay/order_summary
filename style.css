@@ -121,24 +121,13 @@ a.cancel:hover {
     color: hsl(223, 47%, 23%);
 }
 
-@media screen and (max-width: 770px) {
-
-    .flex-box {
-        column-gap: 20px;
-    }
-
-    .flex-box2 {
-        column-gap: 10px;
-    }
-}
-
     @media screen and (max-width: 680px) {
 
         .flex-box {column-gap: 40px;}
     
         .flex-box2 {column-gap: 5px;}
 
-        p {font-size: 15px; padding: 0 10px;}
+        p {font-size: 15px;}
 
         .annual-plan {font-size: 14px;}
         .change {font-size: 13px;}
@@ -147,7 +136,8 @@ a.cancel:hover {
 
 @media screen and (max-width: 420px) {
     body {
-        background-color: url("images/pattern-background-mobile.svg")
+        background-color: url("images/pattern-background-mobile.svg");
+        background-position: 25% -90%;
     }
 
     .card-container {
@@ -172,7 +162,7 @@ a.cancel:hover {
     }
 
     .flex-box2 {
-        column-gap: 5px;
+        column-gap: 15px;
         flex-basis: content;
     }
 
@@ -186,5 +176,3 @@ a.cancel:hover {
         font-size: 13px; 
         font-weight: 700;}
 }
-
-
