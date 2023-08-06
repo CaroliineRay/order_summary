@@ -121,19 +121,41 @@ a.cancel:hover {
     color: hsl(223, 47%, 23%);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 770px) {
+
+    .flex-box {
+        column-gap: 20px;
+    }
+
+    .flex-box2 {
+        column-gap: 10px;
+    }
+}
+
+    @media screen and (max-width: 680px) {
+
+        .flex-box {column-gap: 40px;}
+    
+        .flex-box2 {column-gap: 5px;}
+
+        p {font-size: 15px; padding: 0 10px;}
+
+        .annual-plan {font-size: 14px;}
+        .change {font-size: 13px;}
+    
+}
+
+@media screen and (max-width: 375px) {
     body {
         background-color: url("images/pattern-background-mobile.svg")
     }
 
     .card-container {
-        max-width: 350px;
+        max-width: 360px;
         max-height: auto;
     }
 
-    div.text {
-        padding: 20px;
-    }
+    div.text { padding: 20px;}
 
     h1 {
         font-size: 20px;
@@ -150,7 +172,7 @@ a.cancel:hover {
     }
 
     .flex-box2 {
-        column-gap: 15px;
+        column-gap: 5px;
         flex-basis: content;
     }
 
