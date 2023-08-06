@@ -121,12 +121,6 @@ a.cancel:hover {
     color: hsl(223, 47%, 23%);
 }
 
-@media screen and (min-width: 1440px) {
-    body {
-        background-position: 10% 40%;
-    }
-}
-
 @media screen and (max-width: 770px) {
 
     .flex-box {
