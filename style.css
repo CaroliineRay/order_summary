@@ -10,8 +10,8 @@ body {
     background-image: url("images/pattern-background-desktop.svg");
     background-repeat: repeat-x;
     background-color:  hsl(225, 100%, 94%);
-    background-position: 10% -25%;
-    background-attachment: fixed; /* not sure it is working */
+    background-position: 30% -25%;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
 }
@@ -121,7 +121,7 @@ a.cancel:hover {
     color: hsl(223, 47%, 23%);
 }
 
-    @media screen and (max-width: 680px) {
+    @media screen and (max-width: 680px) and (min-width: 421px) {
 
         .flex-box {column-gap: 40px;}
     
@@ -137,12 +137,12 @@ a.cancel:hover {
 @media screen and (max-width: 420px) {
     body {
         background-color: url("images/pattern-background-mobile.svg");
-        background-position: 25% -90%;
+        background-position: 10% -40%;
     }
 
     .card-container {
-        max-width: 350px;
-        max-height: auto;
+        width: 85%;
+        height: auto;
     }
 
     div.text { padding: 20px;}
