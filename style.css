@@ -43,7 +43,7 @@ div.text {
 
 h1 {
     color: hsl(223, 47%, 23%);
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 900;
     margin: 0;
 }
@@ -96,10 +96,11 @@ a.change:hover {
     display: inline-block;
     background-color: hsl(245, 75%, 52%);
     color: white;
+    font-weight: 700;
     text-decoration: none;
     width: 100%;
     border-radius: 8px;
-    padding: 10px 15px;
+    padding: 15px 15px;
     font-size: 14px;
     letter-spacing: 1px;
     margin: 20px 0;
@@ -114,7 +115,7 @@ a.button:hover {
     color: hsl(224, 23%, 55%);
     text-decoration: none;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 a.cancel:hover {
@@ -137,11 +138,7 @@ a.cancel:hover {
 @media screen and (max-width: 420px) {
     body {
         background-color: url("images/pattern-background-mobile.svg");
-<<<<<<< HEAD
         background-position: 10% -40%;
-=======
-        background-position: 25% -90%;
->>>>>>> 31727e9675f77d942799dab693389d8daf8d836b
     }
 
     .card-container {
@@ -179,4 +176,5 @@ a.cancel:hover {
     .button, .cancel {
         font-size: 13px; 
         font-weight: 700;}
+}
 }
