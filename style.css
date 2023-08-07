@@ -137,7 +137,11 @@ a.cancel:hover {
 @media screen and (max-width: 420px) {
     body {
         background-color: url("images/pattern-background-mobile.svg");
+<<<<<<< HEAD
         background-position: 10% -40%;
+=======
+        background-position: 25% -90%;
+>>>>>>> 31727e9675f77d942799dab693389d8daf8d836b
     }
 
     .card-container {
